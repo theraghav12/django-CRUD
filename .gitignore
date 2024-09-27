@@ -1,0 +1,21 @@
+# .gitignore
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+env/
+.idea/
+.vscode/
+*.DS_Store
+
+# Django specific
+db.sqlite3
+/staticfiles/
+media/
+
+# Environment variables
+.env
